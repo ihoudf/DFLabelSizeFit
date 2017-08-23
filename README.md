@@ -4,7 +4,7 @@
 <br>
 注意:使用这三个方法必须先设置label的frame和font
 
-#### 方法：
+### 方法：
 <br>
 1. 单行。返回label高度为你设置的font的值。<br>
 
@@ -26,7 +26,7 @@
  @param paragraphSpacingBefore 段落之间的间距<br>
  @param alignment 对齐方式<br>
  @param isFirstLineHeadIndent 首行是否缩进两字符<br>
- @return 原label<br>
+
 ```
 - (UILabel *)hdf_labelToFitHeightWithLineSpacing:(CGFloat)lineSpacing
                           paragraphSpacingBefore:(CGFloat)paragraphSpacingBefore
@@ -35,7 +35,9 @@
 ```
 
 
-#### 效果图：
+
+
+### 效果图：
 ![](https://github.com/eastcity/LabelSizeFit/blob/master/IMG_4431.PNG?raw=true "")
  
 
