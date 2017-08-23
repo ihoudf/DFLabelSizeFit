@@ -1,10 +1,10 @@
-#LabelSizeAutoFit
+# LabelSizeAutoFit
 一行代码让label自适应宽高。支持设置行距，富文本设置。
 
 <br>
 注意:使用这三个方法必须先设置label的frame和font
 
-####方法：
+#### 方法：
 <br>
 1. 单行。返回label高度为你设置的font的值。<br>
 
@@ -35,7 +35,7 @@
 ```
 
 
-####效果图：
+#### 效果图：
 ![](https://github.com/eastcity/LabelSizeFit/blob/master/IMG_4431.PNG?raw=true "")
  
 
