@@ -31,14 +31,15 @@
     //多行 patten1
     UILabel *label2 = [[UILabel alloc] init];
     label2.frame = CGRectMake(20, 80, 300, 100);
-    label2.text = @"多行 patten1：此种情况间距无效";
+    label2.text = @"多行 patten1：文字少于一行间距无效";
     label2.textAlignment = NSTextAlignmentLeft;
     label2.numberOfLines = 0;
     label2.backgroundColor = [UIColor yellowColor];
     label2.textColor = [UIColor blackColor];
     label2.font = [UIFont systemFontOfSize:15];
     [self.view addSubview:label2];
-    [label2 hdf_labelToFitHeightWithLineSpacing:6];
+    //文字少于一行，此处isSingleLineKeepWidth为NO时 与 hdf_labelToFitWidth设置效果相同
+    [label2 hdf_labelToFitHeightWithLineSpacing:6 isSingleLineKeepWidth:YES];
     
     //多行 patten2
     UILabel *label1 = [[UILabel alloc] init];
@@ -50,7 +51,7 @@
     label1.textColor = [UIColor blackColor];
     label1.font = [UIFont systemFontOfSize:15];
     [self.view addSubview:label1];
-    [label1 hdf_labelToFitHeightWithLineSpacing:6];
+    [label1 hdf_labelToFitHeightWithLineSpacing:6 isSingleLineKeepWidth:YES];
     
 
     

@@ -23,7 +23,7 @@
 }
 
 
-- (UILabel *)hdf_labelToFitHeightWithLineSpacing:(CGFloat)lineSpacing//多行宽不变
+- (UILabel *)hdf_labelToFitHeightWithLineSpacing:(CGFloat)lineSpacing isSingleLineKeepWidth:(BOOL)keepWidth//多行宽不变
 {
     if (self.text.length == 0) {
         self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, 0, 0);
@@ -56,7 +56,11 @@
         self.textAlignment = textAlignment;
     }else {//单行
         [self sizeToFit];
-        self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, labelWidth, self.font.pointSize);
+        if (keepWidth) {
+            self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, labelWidth, self.font.pointSize);
+        }else{
+            self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, self.font.pointSize);
+        }
         self.textAlignment = textAlignment;
     }
     return self;

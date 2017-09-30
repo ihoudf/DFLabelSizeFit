@@ -24,11 +24,13 @@
 //多行宽不变
 /**
  一段文字多行。只高度自适应。返回的宽度为你设置的frame的width。（可直接适配单行文字的情况，此时返回的高度是文字的font值）。
-
+ 
  @param lineSpacing 行距
+ @param keepWidth 文字单行时是保持设置的frame的width还是返回实际的labeldewidth
  @return 原label
  */
-- (UILabel *)hdf_labelToFitHeightWithLineSpacing:(CGFloat)lineSpacing;
+- (UILabel *)hdf_labelToFitHeightWithLineSpacing:(CGFloat)lineSpacing
+                           isSingleLineKeepWidth:(BOOL)keepWidth;
 
 
 
