@@ -15,7 +15,7 @@
 <br>
 2. 多行。<br>
 @param lineSpacing 行距<br>
-@param keepWidth 文字单行时是保持设置的frame的width还是返回实际的labeldewidth<br>
+@param keepWidth 文字单行时是保持设置的frame的width还是返回实际的label的width<br>
 
 ```
 - (UILabel *)hdf_labelToFitHeightWithLineSpacing:(CGFloat)lineSpacing 
