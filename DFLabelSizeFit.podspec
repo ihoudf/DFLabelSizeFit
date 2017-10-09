@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "6.0"
   s.source       = { :git => "https://github.com/ihoudf/DFLabelSizeFit.git", :tag => s.version }
-  s.source_files = "DFLabelSizeFit/**/*.{h,m}"
+  s.source_files = "DFLabelSizeFit", "DFLabelSizeFit/**/*.{h,m}"
   s.requires_arc = true
 
 end
