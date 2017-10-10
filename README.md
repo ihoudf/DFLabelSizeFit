@@ -129,7 +129,7 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
 ### 许可证
 使用 MIT 许可证，详情见<a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE">LICENSE</a> 文件。
 <br>
-#THANKS!
+# THANKS!
 <br>
 <font color="#42C485">qq交流群：479873475</font>
 <br>
