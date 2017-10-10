@@ -1,16 +1,12 @@
 # DFLabelSizeFit
-
 <a href=""><img src="https://img.shields.io/badge/build-passing-green.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/pod-1.1.0-yellow.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/platform-iOS-blue.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/support-iOS%206%2B-yellowgreen.svg"></a>
-<a href="http://blog.csdn.net/hdfqq188816190" target="blank"><img src="https://img.shields.io/badge/blog-ihoudf-orange.svg"></a>
 <a href="https://ihoudf.github.io/" target="blank"><img src="https://img.shields.io/badge/homepage-ihoudf-brightgreen.svg"></a>
 
-##### line of code to fit label size.
-#####一行代码自适应label size
-<br>
+#####  line of code to fit label size.(一行代码自适应label size)
 <br>
 
 <img width="375" src="https://github.com/ihoudf/DFLabelSizeFit/blob/master/IMG_4875.JPG?raw=true">
@@ -95,7 +91,7 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
     3.import "DFLabelSizeFit.h"
 
 
-### 文档：
+### 文档
 * 使用这些方法前你需要先设置label的frame和font
 <br>
 
