@@ -8,7 +8,7 @@
 
 ##### one line of code to fit label size.(一行代码自适应label size)
 <br>
-<img width="375" src="https://github.com/ihoudf/DFLabelSizeFit/blob/master/IMG_4875.JPG?raw=true">
+<img width="375" src="https://github.com/ihoudf/DFLabelSizeFit/blob/master/IMG_4877.JPG?raw=true">
 
 
 ### system Requirements
