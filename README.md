@@ -8,14 +8,13 @@
 <a href="http://blog.csdn.net/hdfqq188816190" target="blank"><img src="https://img.shields.io/badge/blog-ihoudf-orange.svg"></a>
 <a href="https://ihoudf.github.io/" target="blank"><img src="https://img.shields.io/badge/homepage-ihoudf-brightgreen.svg"></a>
 
-#####<font color="#8DBE0E">one line of code to fit label size.</font>
-#####<font color="#8DBE0E">一行代码自适应label size</font>
+##### line of code to fit label size.
+#####一行代码自适应label size
 <br>
-result：
 <br>
 
-![](https://github.com/ihoudf/DFLabelSizeFit/blob/master/IMG_4875.jpg?raw=true)
-<br>
+<img width="375" src="https://github.com/ihoudf/DFLabelSizeFit/blob/master/IMG_4875.JPG?raw=true">
+
 
 ### system Requirements
 This library requires iOS 6.0+.
@@ -132,6 +131,7 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
 
 ### 许可证
 使用 MIT 许可证，详情见<a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE">LICENSE</a> 文件。
+<br>
 #THANKS!
 <br>
 <font color="#42C485">qq交流群：479873475</font>
