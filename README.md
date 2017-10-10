@@ -30,10 +30,10 @@ requires iOS 6.0+.
     3.import "DFLabelSizeFit.h
 
 ### Document
-* use these methods you should set label's frame and font at first. 
+* use these methods you should set label's frame at first. 
 <br>
 
-1.single line text。 the label height you get is the fontsize you set.<br>
+1.single line text。 the label height you get is the fontsize.According <em>textAlignment</em> set label's frame<br>
 
 ```
 - (UILabel *)df_labelSizeFit;
@@ -91,10 +91,10 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
 
 
 ### 文档
-* 使用这些方法前你需要先设置label的frame和font
+* 使用这些方法前你需要先设置label的frame
 <br>
 
-1.单行。返回label高度为你设置的font的值。_<br>
+1.单行。返回label高度为你设置的font的值的pointSize。并根据textAlignment设置label的位置。<br>
 
 ```
 - (UILabel *)df_labelSizeFit;

@@ -17,8 +17,22 @@
 - (UILabel *)df_labelSizeFit
 {
     if (self.text.length != 0) {
+        CGFloat oldWidth  = self.frame.size.width;
+        CGFloat oldY      = self.frame.origin.y;
+        CGFloat oldX    = self.frame.origin.x;
+        CGFloat pointSize = self.font.pointSize;
         [self sizeToFit];
-        self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, self.font.pointSize);
+//        if (!self.font.pointSize) {
+//            pointSize = self.frame.size.height;
+//        }
+        CGFloat newWidth = self.frame.size.width;
+        if (self.textAlignment == NSTextAlignmentCenter){
+            self.frame = CGRectMake(oldX+(oldWidth-newWidth)/2, oldY, newWidth, pointSize);
+        }else if (self.textAlignment == NSTextAlignmentRight){
+            self.frame = CGRectMake(oldX+(oldWidth-newWidth), oldY, newWidth, pointSize);
+        }else{
+            self.frame = CGRectMake(self.frame.origin.x, oldY, newWidth, pointSize);
+        }
     }else{
         self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y,0, 0);
     }
