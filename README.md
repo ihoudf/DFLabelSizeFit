@@ -1,9 +1,9 @@
 # DFLabelSizeFit
-<a href=""><img src="https://img.shields.io/badge/build-passing-green.svg"></a>
-<a href=""><img src="https://img.shields.io/badge/pod-1.1.1-yellow.svg"></a>
-<a href=""><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
-<a href=""><img src="https://img.shields.io/badge/platform-iOS-blue.svg"></a>
-<a href=""><img src="https://img.shields.io/badge/support-iOS%206%2B-yellowgreen.svg"></a>
+<a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/build-passing-green.svg"></a>
+<a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/pod-1.1.1-yellow.svg"></a>
+<a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE" target="blank"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
+<a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/platform-iOS-blue.svg"></a>
+<a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/support-iOS%206%2B-yellowgreen.svg"></a>
 <a href="https://ihoudf.github.io/" target="blank"><img src="https://img.shields.io/badge/homepage-ihoudf-brightgreen.svg"></a>
 
 ##### one line of code to fit label size.(一行代码自适应label size)
