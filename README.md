@@ -1,6 +1,6 @@
 # DFLabelSizeFit
 <a href=""><img src="https://img.shields.io/badge/build-passing-green.svg"></a>
-<a href=""><img src="https://img.shields.io/badge/pod-1.1.0-yellow.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/pod-1.1.1-yellow.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/platform-iOS-blue.svg"></a>
 <a href=""><img src="https://img.shields.io/badge/support-iOS%206%2B-yellowgreen.svg"></a>

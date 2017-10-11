@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DFLabelSizeFit"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "one line of code to fit label size."
   s.homepage     = "https://github.com/ihoudf/DFLabelSizeFit"
   s.license      = "MIT"
