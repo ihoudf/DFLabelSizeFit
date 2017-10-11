@@ -131,7 +131,6 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
 <br>
 <font color="#42C485">qq交流群：479873475</font>
 <br>
-
 <font color="#42C485">合作qq：188816190</font>
 <br>
 
