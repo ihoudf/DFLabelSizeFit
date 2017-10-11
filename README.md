@@ -33,7 +33,7 @@ requires iOS 6.0+.
 * use these methods you should set label's frame at first. 
 <br>
 
-1.single line text。 the label height you get is the fontsize.According <em>textAlignment</em> set label's frame<br>
+1.single line text. the label height you get is the fontsize.According <em>textAlignment</em> set label's frame.<br>
 
 ```
 - (UILabel *)df_labelSizeFit;
@@ -50,7 +50,7 @@ requires iOS 6.0+.
 ```
 
 <br>
-3. muti paragraph<br>
+3. muti paragraph.<br>
  
  @param lineSpacing  lineSpacing<br>
  @param paragraphSpacingBefore  paragraphSpacingBefore<br>
@@ -101,7 +101,7 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
 ```
 
 <br>
-2. 多行。<br>
+2. 多行<br>
 @param lineSpacing 行距<br>
 @param keepWidth 文字单行时是保持设置的frame的width还是返回实际的label的width<br>
 
