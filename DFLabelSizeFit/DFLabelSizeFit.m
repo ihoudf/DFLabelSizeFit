@@ -10,21 +10,18 @@
 
 @implementation UILabel (DFLabelSizeFit)
 /**
- single line text。 the label height you get is the fontsize you set.
+ single line text. the label height you get is the fontsize you set.
  
  @return label
  */
 - (UILabel *)df_labelSizeFit
 {
     if (self.text.length != 0) {
-        CGFloat oldWidth  = self.frame.size.width;
-        CGFloat oldY      = self.frame.origin.y;
-        CGFloat oldX    = self.frame.origin.x;
-        CGFloat pointSize = self.font.pointSize;
+        CGFloat oldWidth    = self.frame.size.width;
+        CGFloat oldY        = self.frame.origin.y;
+        CGFloat oldX        = self.frame.origin.x;
+        CGFloat pointSize   = self.font.pointSize;
         [self sizeToFit];
-//        if (!self.font.pointSize) {
-//            pointSize = self.frame.size.height;
-//        }
         CGFloat newWidth = self.frame.size.width;
         if (self.textAlignment == NSTextAlignmentCenter){
             self.frame = CGRectMake(oldX+(oldWidth-newWidth)/2, oldY, newWidth, pointSize);

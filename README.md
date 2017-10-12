@@ -94,7 +94,7 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
 * 使用这些方法前你需要先设置label的frame
 <br>
 
-1.单行。返回label高度为你设置的font的值的pointSize。并根据textAlignment设置label的位置。<br>
+1.单行。返回label高度是font值的pointSize。并根据textAlignment设置label的位置。<br>
 
 ```
 - (UILabel *)df_labelSizeFit;

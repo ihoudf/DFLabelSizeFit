@@ -16,7 +16,7 @@
 
 
 /**
- single line text。 the label height you get is the fontsize you set.
+ single line text. the label height you get is the fontsize you set.
  
  @return label
  */
@@ -24,7 +24,7 @@
 
 
 /**
- Multiline text in one paragraph.
+ Multiline text in one paragraph
  
  @param lineSpacing lineSpacing
  @param singleLineKeepWidth when single line,keep width you set or get the actual label width.
