@@ -36,6 +36,31 @@
     return self;
 }
 
+/**
+ single line text. fit width. the label height you get is the frame.size.height you set.
+ 
+ @return label
+ */
+- (UILabel *)df_labelSizeFitWidth{
+    if (self.text.length != 0) {
+        CGFloat oldWidth    = self.frame.size.width;
+        CGFloat oldHeight   = self.frame.size.height;
+        CGFloat oldY        = self.frame.origin.y;
+        CGFloat oldX        = self.frame.origin.x;
+        [self sizeToFit];
+        CGFloat newWidth = self.frame.size.width;
+        if (self.textAlignment == NSTextAlignmentCenter){
+            self.frame = CGRectMake(oldX+(oldWidth-newWidth)/2, oldY, newWidth, oldHeight);
+        }else if (self.textAlignment == NSTextAlignmentRight){
+            self.frame = CGRectMake(oldX+(oldWidth-newWidth), oldY, newWidth, oldHeight);
+        }else{
+            self.frame = CGRectMake(self.frame.origin.x, oldY, newWidth, oldHeight);
+        }
+    }else{
+        self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y,0, 0);
+    }
+    return self;
+}
 
 /**
  Multiline text in one paragraph.

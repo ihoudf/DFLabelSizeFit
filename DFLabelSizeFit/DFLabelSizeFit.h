@@ -24,6 +24,13 @@
 
 
 /**
+ single line text. fit width. the label height you get is the frame.size.height you set.
+ 
+ @return label
+ */
+- (UILabel *)df_labelSizeFitWidth;
+
+/**
  Multiline text in one paragraph
  
  @param lineSpacing lineSpacing
