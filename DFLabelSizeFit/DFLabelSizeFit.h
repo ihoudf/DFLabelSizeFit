@@ -12,7 +12,7 @@
 @interface UILabel (DFLabelSizeFit)
 
 
-/***** use these method you should set label's frame and font at first. *****/
+/***** use these method you should set label's frame at first. *****/
 
 
 /**
@@ -22,13 +22,12 @@
  */
 - (UILabel *)df_labelSizeFit;
 
-
 /**
- single line text. fit width. the label height you get is the frame.size.height you set.
+ single line text.only fit width. the label height you get is the frame.size.height you set.
  
  @return label
  */
-- (UILabel *)df_labelSizeFitWidth;
+- (UILabel *)df_labelSizeFitKeepOldHeight;
 
 /**
  Multiline text in one paragraph

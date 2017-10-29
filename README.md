@@ -1,6 +1,6 @@
 # DFLabelSizeFit
 <a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/build-passing-green.svg"></a>
-<a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/pod-1.1.1-yellow.svg"></a>
+<a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/pod-1.1.2-yellow.svg"></a>
 <a href="https://github.com/ihoudf/DFLabelSizeFit/blob/master/LICENSE" target="blank"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
 <a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/platform-iOS-blue.svg"></a>
 <a href="https://github.com/ihoudf/DFLabelSizeFit"><img src="https://img.shields.io/badge/support-iOS%206%2B-yellowgreen.svg"></a>
@@ -31,16 +31,19 @@ requires iOS 6.0+.
 
 ### Document
 * use these methods you should set label's frame at first. 
-<br>
 
-1.single line text. the label height you get is the fontsize.According <em>textAlignment</em> set label's frame.<br>
+<br>1.single line text. the label height you get is the fontsize.According <em>textAlignment</em> set label's frame.<br>
 
 ```
 - (UILabel *)df_labelSizeFit;
 ```
 
-<br>
-2. Multiline text in one paragraph.<br>
+<br>2.single line text.only fit width. the label height you get is the frame.size.height you set.<br>
+```
+- (UILabel *)df_labelSizeFitKeepOldHeight;
+```
+
+<br>3. Multiline text in one paragraph.<br>
 @param lineSpacing lineSpacing<br>
 @param singleLineKeepWidth  when single line,keep width you set or get the actual label width.<br>
 
@@ -49,8 +52,7 @@ requires iOS 6.0+.
                         singleLineKeepWidth:(BOOL)singleLineKeepWidth;
 ```
 
-<br>
-3. muti paragraph.<br>
+<br>_4_. muti paragraph.<br>
  
  @param lineSpacing  lineSpacing<br>
  @param paragraphSpacingBefore  paragraphSpacingBefore<br>
@@ -92,16 +94,19 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
 
 ### 文档
 * 使用这些方法前你需要先设置label的frame
-<br>
 
-1.单行。返回label高度是font值的pointSize。并根据textAlignment设置label的位置。<br>
+<br>1.单行。返回label高度是font值的pointSize。并根据textAlignment设置label的位置。<br>
 
 ```
 - (UILabel *)df_labelSizeFit;
 ```
 
-<br>
-2. 多行<br>
+<br>2.单行。自适应宽。返回高为你设置的frame的height<br>
+```
+- (UILabel *)df_labelSizeFitKeepOldHeight;
+```
+
+<br>3. 多行<br>
 @param lineSpacing 行距<br>
 @param keepWidth 文字单行时是保持设置的frame的width还是返回实际的label的width<br>
 
@@ -110,8 +115,7 @@ provided under the MIT license. See <a href="https://github.com/ihoudf/DFLabelSi
                         singleLineKeepWidth:(BOOL)singleLineKeepWidth;
 ```
 
-<br>
-3. 多段落设置富文本<br>
+<br>4. 多段落设置富文本<br>
  @param lineSpacing 行距<br>
  @param paragraphSpacingBefore 段落之间的间距<br>
  @param alignment 对齐方式<br>

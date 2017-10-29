@@ -41,7 +41,7 @@
  
  @return label
  */
-- (UILabel *)df_labelSizeFitWidth{
+- (UILabel *)df_labelSizeFitKeepOldHeight{
     if (self.text.length != 0) {
         CGFloat oldWidth    = self.frame.size.width;
         CGFloat oldHeight   = self.frame.size.height;
