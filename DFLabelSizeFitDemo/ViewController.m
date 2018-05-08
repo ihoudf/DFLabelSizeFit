@@ -2,7 +2,7 @@
 //  ViewController.m
 //  LabelAutoSize
 //
-//  Created by Faroe on 2017/8/23.
+//  Created by HDF on 2017/8/23.
 //  Copyright © 2017年 HDF. All rights reserved.
 //
 
@@ -21,7 +21,6 @@
     //demo中的size都直接使用数字。
     UIColor *green = [UIColor colorWithRed:141.0/255.0 green:190.0/255.0 blue:14.0/255.0 alpha:1];
 
-    
     //单行
     UILabel *label = [[UILabel alloc] init];
     label.frame = CGRectMake(20, 50, 300, 100);
@@ -93,8 +92,6 @@
     [self.view addSubview:label3];
     [label3 df_labelSizeFitWithLineSpacing:6 paragraphSpacingBefore:12 alignment:(NSTextAlignmentLeft) isFirstLineHeadIndent:YES];
     
-    
-    
 }
 
 
@@ -102,6 +99,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//测试
 
 
 @end
